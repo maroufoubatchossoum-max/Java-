@@ -1,19 +1,11 @@
-import java.util.Scanner;
-
-public class AgeUtilisateur {
+public class SommeDeuxNombres {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        int nombre1 = 10;
+        int nombre2 = 25;
 
-        System.out.print("Entrez votre âge : ");
-        int age = scanner.nextInt();
+        int somme = nombre1 + nombre2;
 
-        if (age >= 18) {
-            System.out.println("Vous êtes majeur.");
-        } else {
-            System.out.println("Vous êtes mineur.");
-        }
-
-        scanner.close();
+        System.out.println("La somme est : " + somme);
     }
 }
